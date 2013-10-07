@@ -3,7 +3,7 @@ body {
 }
 
 .l-main {
-    background: #eee;
+    background: #fff;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -78,4 +78,28 @@ body {
 
 .b-footer .b-footer__logo {
     float: right
+}
+
+[class^="s-btn"],
+[class*=" s-btn"] {
+    border: 1px solid #eee;
+    background: green;
+    border-radius: 3px;
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+[class^="s-btn"].active,
+[class*=" s-btn"].active {
+    opacity: 1;
+}
+
+.s-btn__success {
+    background: blue;
+}
+
+.s-btn__danger {
+    background: red;
 }
